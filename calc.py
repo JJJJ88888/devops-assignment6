@@ -1,5 +1,8 @@
+def multiply(a, b):
+    return a * b
+
+
 def add(a, b):
-    # 解決衝突：保留 Bob 的安全型別轉換
     return int(a) + int(b)
 
 
