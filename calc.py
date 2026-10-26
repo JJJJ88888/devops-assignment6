@@ -1,5 +1,6 @@
 def add(a, b):
-    return int(a) + int(b)  # Bob 也修改了第 2 行造成衝突
+    # 解決衝突：保留 Bob 的安全型別轉換
+    return int(a) + int(b)
 
 
 def subtract(a, b):
